@@ -4,13 +4,8 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class IntersectionOfTwoArraysII {
-    public static void main(String[] args) {
-        int[] num1 = {4, 9, 5};
-        int[] num2 = {9, 4, 9, 8, 4};
-        System.out.println(intersect(num1, num2));
-    }
 
-    public static int[] intersect(int[] nums1, int[] nums2) {
+    public int[] intersect(int[] nums1, int[] nums2) {
         List<Integer> result = new ArrayList<>();
         int i = 0, j = 0;
         Arrays.sort(nums1);
